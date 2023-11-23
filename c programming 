@@ -1,0 +1,322 @@
+[17/11, 9:27 pm] SAKTHIVEL: perimeter and area of square and rectangle
+[17/11, 9:27 pm] SAKTHIVEL: #include <stdio.h>
+int main()
+{
+    int a,b,c,d;
+    printf("Enter the length of the rectangle : ");
+    scanf("%d",&a);
+    printf("Enter the breadth of the rectangle : ");
+    scanf("%d",&b);
+    c=2*(a+b);
+    printf("The perimeter of the rectangle : %d \n",c);
+    d=a*b;
+    printf("The area of the rectangle : %d \n \n",d);
+
+
+    int e,f,g;
+    printf("Enter the lentgth the square :");
+    scanf("%d",&e);
+    f=4*e;
+    printf("The perimeter of the square is %d \n",f);
+    g=e*e;
+    printf("The area of the square is %d \n",g);
+}
+[17/11, 9:51 pm] SAKTHIVEL: largest of 3
+[17/11, 9:51 pm] SAKTHIVEL: #include <stdio.h>
+int main()
+{
+    int a,b,c;
+    printf("Enter the number for a :");
+    scanf("%d",&a);
+    printf("Enter the number for b :");
+    scanf("%d",&b);
+    printf("Enter the number for c :");
+    scanf("%d",&c);
+    if(a>b && a>c)
+    {
+        printf("%d is greater than %d and %d",a,b,c);
+    }
+    else if (b>a && b>c)
+    {
+        printf("%d is greater than %d and %d",b,c,a);
+    }
+    else
+    {
+        printf("%d is greater than %d and %d",c,a,b);
+    }
+}
+[17/11, 10:01 pm] SAKTHIVEL: tables
+[17/11, 10:01 pm] SAKTHIVEL: #include <stdio.h>
+int main()
+{
+    int a;
+    printf("Enter the number. for the table : ");
+    scanf("%d",&a);
+    for(int i=0;i<=10;i++)
+    {
+        printf("%d x %d = %d \n",a,i,a*i);
+    }
+}
+[17/11, 10:34 pm] SAKTHIVEL: even numbers in range
+[17/11, 10:34 pm] SAKTHIVEL: #include <stdio.h>
+int main()
+{
+    int a,n;
+    printf("Enter the number : ");
+    scanf("%d",&a);
+    for (int i =1;i<=a;i++)
+    {
+        if(i%2==0)
+        {
+            n=n+1;
+            printf("%d \n",i);
+        }
+    }
+    printf("The number of even number is %d",n);
+}
+[17/11, 10:39 pm] SAKTHIVEL: average odd numbers below a range
+[17/11, 10:39 pm] SAKTHIVEL: #include <stdio.h>
+int main()
+{
+    int a,n;
+    printf("Enter the number : ");
+    scanf("%d",&a);
+    for (int i =0;i<a;i++)
+    {
+        if(i%2==1)
+        {
+            n=i+n;
+        }
+    }
+    printf("average of odd numbers below the range is %d",n);
+}
+[17/11, 10:57 pm] SAKTHIVEL: net salary
+#include <stdio.h>
+
+int main()
+{
+	float b, da, hra, ta, others,m,n,o;
+	float pf,it;
+	float ns;
+	printf("Enter Basic Salary : ");
+	scanf("%f",&b);
+	printf("Enter HRA : ");
+	scanf("%f",&hra);
+	printf("Enter TA : ");
+	scanf("%f",&ta);	
+	printf("Enter others : ");
+	scanf("%f",&others);
+	printf("DA % ");
+	scanf("%d",&n);
+	printf("pf % ");
+	scanf("%d",&m);
+	printf("it % ");
+	scanf("%d",&o);
+	
+	da = (b*n)/100;
+	pf = (b*m)/100;
+	it = (b*o)/100;
+	ns = b + da + hra + ta + others - (pf+it);
+	printf("Net Salary is: %.02f\n",ns);
+	
+	return 0;
+}
+[17/11, 11:27 pm] SAKTHIVEL: student passed 
+#include <stdio.h>
+int main()
+{
+    int a,b,c,d,e,f;
+    printf("Enter the 1st sub mark[out of 100] : ");
+    scanf("%d",&a);
+    printf("Enter the 2nd sub mark[out of 100] : ");
+    scanf("%d",&b);
+    printf("Enter the 3rd sub mark[out of 100] : ");
+    scanf("%d",&c);
+    if (a >= 40 && b>=40 && c>=40)
+    {
+        printf("You passed in all exams");
+    }
+    else if ( a<40&&b<40&&c<40)
+    {
+        printf("You failed in one or more exams");
+    }
+    else
+    {
+        printf("You failed in all exams");
+    }
+    
+}
+[20/11, 4:56 pm] SAKTHIVEL: #include <stdio.h>
+int main()
+{
+    char a[10000];
+    int l=0;
+    printf("Enter anything : ");
+    scanf("%s",a);
+    for(int i=0; a[i]!='\0'; i++)
+    {
+        l=l+1;
+    }
+    
+    printf("Length is %d",l);
+}
+[20/11, 8:30 pm] SAKTHIVEL: # include <stdio.h>
+int main()
+{
+    int a,b,c,d,e,f;
+    printf("Enter any number [three digit number] : ");
+    scanf("%d",&a);
+    b=a%10;
+    c=a/10;
+    d=c%10;
+    e=c/10;
+    f=(b*b*b)+(d*d*d)+(e*e*e);
+    if(a==f)
+    {
+        printf("%d is an armstrong number",f);
+    }
+    else{
+        printf("%d is not an armstrong number \n the ans is %d",a,f);    }
+}
+[20/11, 9:36 pm] SAKTHIVEL: prime number
+[20/11, 9:37 pm] SAKTHIVEL: prime number
+#include<stdio.h>   
+int main()
+{
+    int a,n;
+    printf("Enter any number : ");
+    scanf("%d",&a);
+    for (int i=2;i<=a/2;++i)
+    {
+        if(a%i==0)
+        {
+            n=1;
+            break;
+        }
+    }
+    if(n==0){
+        printf("Its a prime number");
+    }
+    else
+    {
+        printf("Its not a prime number");
+    }
+}
+[20/11, 9:45 pm] SAKTHIVEL: palindrome 
+#include<stdio.h>   
+int main()
+{
+    int a,b,c,d,e,f,g,h;
+    printf("Enter any number in 3 digits : ");
+    scanf("%d",&a);
+    b=a%10;
+    c=b*100;
+    d=a/10;
+    e=d%10;
+    f=e*10;
+    g=d/10;
+    h=c+f+g;
+    if(a==h){
+        printf("its a palindrome");
+    }
+    else
+    {
+        printf("Its not a palindrome");
+    }
+}
+[20/11, 9:58 pm] SAKTHIVEL: vowels or not 
+#include<stdio.h>   
+int main()
+{
+    char a,b[5]={'a','e','i','o','u'};
+    printf("Enter any character : ");
+    scanf("%c",&a);
+    for(int i =0 ;i<5;i++)
+    {
+        if(a==b[i])
+        {
+            printf("Its a vowel");
+            break;
+        }
+        else
+        {
+            printf("its a constant");
+            break;
+        }
+    }
+[20/11, 11:07 pm] SAKTHIVEL: sum of digits of a number 
+#include<stdio.h>
+int main ()
+{
+    int n,s= 0;
+    printf("Enter the number : ");
+    scanf("%d",&n);
+    while(n!=0){
+        s+=n%10;
+        n=n/10;
+    }
+    printf("Sum : %d\n",s);
+}
+[21/11, 6:49 pm] SAKTHIVEL: #include <stdio.h>
+int main()
+{
+    char n;
+    int a,b,c,d,e,f;
+    printf("Enter 2 numbers with space : ");
+    scanf("%d %d",&a,&b);
+    printf("Enter the operations [+,-,*,/] : ");
+    scanf("%s",&n);
+    if (n=='+')
+    {
+        printf("addition of %d and %d is %d",a,b,a+b);
+    }
+    else if(n=='-')
+    {
+        printf("subtraction of %d and %d is %d",a,b,a-b);
+    }
+    else if(n=='*')
+    {
+        printf("multiplication of %d and %d is %d",a,b,a*b);
+    }
+    else if(n=='/')
+    {
+        printf("division of %d and %d is %d",a,b,a/b);
+    }
+    else
+    {
+        printf("Enter the correct operator ! try again ");
+    }
+}
+[21/11, 6:53 pm] SAKTHIVEL: switching number with variables 
+#include <stdio.h>
+int main()
+{
+    int a,b,temp;
+    printf("Enter a :");
+    scanf("%d",&a);
+    printf("Enter b :");
+    scanf("%d",&b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("a is %d and b is %d",a,b);
+    
+}
+[21/11, 7:03 pm] SAKTHIVEL: flyod triangle 
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter how many rows : ");
+    scanf("%d",&a);
+    for(int i =0;i<a;i++)
+    {
+        for(int j=0;j<=i;j++)
+        {
+            b=b+1;
+            printf("%d ",b);
+        }
+        printf("\n");
+    }
+    
+}
