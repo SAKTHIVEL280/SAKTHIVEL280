@@ -59,5 +59,5 @@
 
 ---
 
-> _"Driven by curiosity. Shaped by discipline. Building for impact."_  
+> _"AI tools. Cool -_-"_  
 > — **Sakthivel E**
