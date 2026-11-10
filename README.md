@@ -7,7 +7,9 @@
 
 <br/>
 
-`B.E. CSE (AIML)` &nbsp;·&nbsp; `K.S. Rangasamy College of Technology` &nbsp;·&nbsp; `Sem 6 · 2023 – 2027`
+`B.E. CSE (AIML)` &nbsp;·&nbsp; `K.S. Rangasamy College of Technology` &nbsp;·&nbsp; `2023 – 2027`
+
+**Now at [CGI](https://www.cgi.com) · Bengaluru**
 
 <br/>
 
@@ -55,17 +57,17 @@ Developer planning tool. Structure your architecture, clarify your stack, and ch
 </td>
 <td width="50%" valign="top">
 
-### [Redactify](https://redactify.daeq.in)
-`Next.js` `Python` `NLP`
+### [Redactify](https://github.com/SAKTHIVEL280/redactify-v2)
+`JavaScript` `WebAssembly` `PII detection`
 
-Browser-based PII redaction. Runs 100% locally — nothing ever leaves the device. NLP backend, AI-generated frontend, zero data exposure by architecture.
+Zero-knowledge document redaction. PII detection and masking run 100% in the browser, so documents never leave the device. 158 passing tests, DPDP / GDPR / HIPAA-aware.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [VoiceSOP](https://github.com/SAKTHIVEL280)
+### [VoiceSOP](https://voice-sop.vercel.app) · [code](https://github.com/SAKTHIVEL280/VoiceSOP)
 `Next.js` `Gemini 2.0` `Supabase` `Razorpay`
 
 B2B SaaS — voice in, Standard Operating Procedure out. Real-time transcription via Browser Speech API, intelligent formatting via Gemini Flash. Payments live.
@@ -102,6 +104,67 @@ Drone-enabled AI model for real-time agricultural disease detection. Built and v
 
 ---
 
+## Open source
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### [Wallhue](https://github.com/SAKTHIVEL280/wallhue)
+`Kotlin` `Jetpack Compose` `Material 3 Expressive`
+
+Material You wallpaper colors for Google apps on Samsung One UI. No root, nothing in the background.
+
+</td>
+<td width="50%" valign="top">
+
+### [Zpic Launcher](https://sakthivel280.github.io/zpic-launcher/)
+`Kotlin` `Jetpack Compose`
+
+Minimal Android launcher: stock feel, Material You colour, expressive motion, a text-only app list and no ads.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [Watch Instead](https://github.com/SAKTHIVEL280/watch-instead)
+`Kotlin` `Android`
+
+Stop doomscrolling: opening Instagram, TikTok or YouTube shows one of your saved motivational videos first.
+
+</td>
+<td width="50%" valign="top">
+
+### [pr-size-coach](https://github.com/SAKTHIVEL280/pr-size-coach)
+`TypeScript` `GitHub Actions`
+
+Flags oversized pull requests and posts a concrete split plan, with optional AI guidance.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### [gitblame.ai](https://github.com/SAKTHIVEL280/GitBlame)
+`TypeScript` `CLI`
+
+Explains *why* a line of code exists, from git blame, commit history and PR context.
+
+</td>
+<td width="50%" valign="top">
+
+### [Qwic Wallpaper](https://github.com/SAKTHIVEL280/qwicwallpaper)
+`C#` `Windows`
+
+Lightweight tray app for fast wallpaper cycling with keyboard controls.
+
+</td>
+</tr>
+</table>
+
+---
+
 ## Stack
 
 **Languages**
@@ -109,6 +172,8 @@ Drone-enabled AI model for real-time agricultural disease detection. Built and v
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 **AI / ML**
@@ -124,6 +189,11 @@ Drone-enabled AI model for real-time agricultural disease detection. Built and v
 ![Stable Diffusion](https://img.shields.io/badge/Stable%20Diffusion-8B5CF6?style=flat-square&logoColor=white)
 ![Gemini API](https://img.shields.io/badge/Gemini%20API-4285F4?style=flat-square&logo=google&logoColor=white)
 ![OpenAI API](https://img.shields.io/badge/OpenAI%20API-412991?style=flat-square&logo=openai&logoColor=white)
+
+**Android**
+
+![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)
+![Material 3](https://img.shields.io/badge/Material%203-757575?style=flat-square&logo=materialdesign&logoColor=white)
 
 **Frontend**
 
@@ -150,6 +220,8 @@ Drone-enabled AI model for real-time agricultural disease detection. Built and v
 ---
 
 ## Experience
+
+**CGI** &nbsp;`Bengaluru`
 
 **AI Engineer Intern — CertainTi.ai** &nbsp;`Jul 2025 – Oct 2025`
 Production "Agentic Interaction" module. AI-driven Interview Module. Full-stack Python-to-frontend integration. End-to-end model benchmarking.
